@@ -26,7 +26,6 @@ concurrency:
 defaults:
   run:
     shell: bash
-    working-directory: ./blog
 
 jobs:
   # Build job
@@ -69,6 +68,7 @@ jobs:
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/" \
             --cacheDir "${{ runner.temp }}/hugo_cache"
+        working-directory: ./blog
       - name: Cache Save
         id: cache-save
         uses: actions/cache/save@v4
