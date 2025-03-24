@@ -21,7 +21,7 @@ pagerSize = 8 # this is set low for demonstrating with dummy content. Set to a h
 contentDir = "./content/en"
 languageCode = 'en-US'
 weight = 1
-title = "Kyle's"
+title = "Things I've read lately"
 # languageDirection = 'rtl' for Right-To-Left languages
 
 [sitemap]
@@ -31,7 +31,7 @@ filename = "sitemap.xml"
 
 [params]
 mainSections = ["post", "other"]
-disable_share = true
+
 text_color = ""
 author = "Grigory Vakulenchuk" # default author, override via `author` in a posts front matter
 favicon = ""
@@ -45,23 +45,23 @@ featured_image_class = "cover bg-top"
 cover_dimming_class = "bg-black-60"
 recent_posts_number = 8
 
-# [params.ananke.social.share]
-# networks = [
-#   "email",
-# ]
+ [params.ananke.social.share]
+ #disable_share = true
+ networks = [
+   "email",
+    "facebook"
+    "linkedin"
+    "mastodon"
+ ]
 
-# [params.ananke.social.follow]
-# networks = [
-#   "rss"
-# ]
+ [params.ananke.social.follow]
+ networks = [
+   "rss"
+ ]
 
-# [params.ananke.social.facebook]
-# username = "patrick.kollitsch"
-# profilelink = "https://www.facebook.com/patrick.kollitsch"
-
-# [params.ananke.social.facebook]
-# username = "patrick.kollitsch"
-# profilelink = "https://www.facebook.com/patrick.kollitsch"
+[params.ananke.social.mastodon]
+# username = "@vakulenchuk"
+profilelink = "https://union.place/@vakulenchuk"
 
 # [params.ananke.social.linkedin]
 # username = "patrickkollitsch"
