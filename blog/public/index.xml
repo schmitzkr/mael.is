@@ -1,95 +1,102 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Kyle&#39;s</title>
+    <title>the latest stuff i&#39;ve read on Kyle&#39;s</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on Kyle&#39;s</description>
+    <description>Recent content in the latest stuff i&#39;ve read on Kyle&#39;s</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 23 Mar 2025 17:39:12 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 23 Mar 2025 20:57:26 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>the latest stuff i&#39;ve read</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Sun, 23 Mar 2025 20:57:26 -0700</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Newone</title>
-      <link>http://localhost:1313/newone/</link>
+      <link>http://localhost:1313/post/newone/</link>
       <pubDate>Sun, 23 Mar 2025 17:39:12 -0700</pubDate>
-      <guid>http://localhost:1313/newone/</guid>
+      <guid>http://localhost:1313/post/newone/</guid>
       <description>&lt;p&gt;fuuuuuck&lt;/p&gt;</description>
     </item>
     <item>
       <title>testing</title>
-      <link>http://localhost:1313/20250322/</link>
+      <link>http://localhost:1313/post/20250322/</link>
       <pubDate>Sat, 22 Mar 2025 17:08:38 -0700</pubDate>
-      <guid>http://localhost:1313/20250322/</guid>
+      <guid>http://localhost:1313/post/20250322/</guid>
       <description>&lt;h1 id=&#34;testing-from-android-app&#34;&gt;testing from android app&lt;/h1&gt;</description>
     </item>
     <item>
       <title>2025-03-23-test3</title>
-      <link>http://localhost:1313/2025-03-23-test3/</link>
+      <link>http://localhost:1313/post/2025-03-23-test3/</link>
       <pubDate>Sun, 23 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/2025-03-23-test3/</guid>
+      <guid>http://localhost:1313/post/2025-03-23-test3/</guid>
       <description>&lt;p&gt;Test3&lt;/p&gt;</description>
     </item>
     <item>
       <title>2025-03-23-this-is-it</title>
-      <link>http://localhost:1313/2025-03-23-this-is-it/</link>
+      <link>http://localhost:1313/post/2025-03-23-this-is-it/</link>
       <pubDate>Sun, 23 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/2025-03-23-this-is-it/</guid>
+      <guid>http://localhost:1313/post/2025-03-23-this-is-it/</guid>
       <description>&lt;p&gt;23-03-2025 02:37&lt;/p&gt;&#xA;&lt;p&gt;This is it&lt;/p&gt;</description>
     </item>
     <item>
       <title>new-markor</title>
-      <link>http://localhost:1313/new-markor/</link>
+      <link>http://localhost:1313/post/new-markor/</link>
       <pubDate>Sun, 23 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/new-markor/</guid>
+      <guid>http://localhost:1313/post/new-markor/</guid>
       <description></description>
     </item>
     <item>
       <title>test-markor2</title>
-      <link>http://localhost:1313/test-markor2/</link>
+      <link>http://localhost:1313/post/test-markor2/</link>
       <pubDate>Sun, 23 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/test-markor2/</guid>
+      <guid>http://localhost:1313/post/test-markor2/</guid>
       <description>&lt;h1 id=&#34;test-markor2&#34;&gt;Test markor2&lt;/h1&gt;&#xA;&lt;p&gt;Testing&lt;/p&gt;</description>
     </item>
     <item>
       <title>First Postcopy</title>
-      <link>http://localhost:1313/test-copy/</link>
+      <link>http://localhost:1313/post/test-copy/</link>
       <pubDate>Sat, 22 Mar 2025 10:19:07 -0700</pubDate>
-      <guid>http://localhost:1313/test-copy/</guid>
+      <guid>http://localhost:1313/post/test-copy/</guid>
       <description>&lt;h1 id=&#34;first-post&#34;&gt;First post&lt;/h1&gt;&#xA;&lt;p&gt;This is the first post to this site, a test really.  I plan on sharing things I am reading here.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Test Deployment</title>
-      <link>http://localhost:1313/test-deployment/</link>
+      <link>http://localhost:1313/post/test-deployment/</link>
       <pubDate>Fri, 21 Mar 2025 21:41:38 -0700</pubDate>
-      <guid>http://localhost:1313/test-deployment/</guid>
+      <guid>http://localhost:1313/post/test-deployment/</guid>
       <description>&lt;h1 id=&#34;testing-deployment&#34;&gt;testing deployment&lt;/h1&gt;</description>
     </item>
     <item>
       <title>First Post</title>
-      <link>http://localhost:1313/first-post/</link>
+      <link>http://localhost:1313/post/first-post/</link>
       <pubDate>Fri, 21 Mar 2025 10:19:07 -0700</pubDate>
-      <guid>http://localhost:1313/first-post/</guid>
+      <guid>http://localhost:1313/post/first-post/</guid>
       <description>&lt;h1 id=&#34;first-post&#34;&gt;First post&lt;/h1&gt;&#xA;&lt;p&gt;This is the first post to this site, a test really.  I plan on sharing things I am reading here.&lt;/p&gt;</description>
     </item>
     <item>
       <title>My First Post</title>
-      <link>http://localhost:1313/my-first-post/</link>
+      <link>http://localhost:1313/post/my-first-post/</link>
       <pubDate>Fri, 14 Mar 2025 12:12:01 -0700</pubDate>
-      <guid>http://localhost:1313/my-first-post/</guid>
+      <guid>http://localhost:1313/post/my-first-post/</guid>
       <description>&lt;h1 id=&#34;addh1&#34;&gt;addh1&lt;/h1&gt;</description>
     </item>
     <item>
       <title>2025-03-23</title>
-      <link>http://localhost:1313/2025-03-23-/</link>
+      <link>http://localhost:1313/post/2025-03-23-/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/2025-03-23-/</guid>
+      <guid>http://localhost:1313/post/2025-03-23-/</guid>
       <description>&lt;p&gt;Latest&lt;/p&gt;</description>
     </item>
     <item>
       <title>test-markor</title>
-      <link>http://localhost:1313/test-markor/</link>
+      <link>http://localhost:1313/post/test-markor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/test-markor/</guid>
+      <guid>http://localhost:1313/post/test-markor/</guid>
       <description>&lt;h1 id=&#34;test-markor&#34;&gt;Test markor&lt;/h1&gt;&#xA;&lt;p&gt;Test&lt;/p&gt;</description>
     </item>
   </channel>
