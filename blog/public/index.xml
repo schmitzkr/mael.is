@@ -6,28 +6,7 @@
     <description>Recent content on kyle&#39;s first site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Mar 2025 21:41:38 -0700</lastBuildDate>
+    <lastBuildDate></lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Test Deployment</title>
-      <link>http://localhost:1313/posts/test-deployment/</link>
-      <pubDate>Fri, 21 Mar 2025 21:41:38 -0700</pubDate>
-      <guid>http://localhost:1313/posts/test-deployment/</guid>
-      <description>&lt;h1 id=&#34;testing-deployment&#34;&gt;testing deployment&lt;/h1&gt;</description>
-    </item>
-    <item>
-      <title>First Post</title>
-      <link>http://localhost:1313/posts/first-post/</link>
-      <pubDate>Fri, 21 Mar 2025 10:19:07 -0700</pubDate>
-      <guid>http://localhost:1313/posts/first-post/</guid>
-      <description>&lt;h1 id=&#34;first-post&#34;&gt;First post&lt;/h1&gt;&#xA;&lt;p&gt;This is the first post to this site, a test really.  I plan on sharing things I am reading here.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>My First Post</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
-      <pubDate>Fri, 14 Mar 2025 12:12:01 -0700</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>

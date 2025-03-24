@@ -6,9 +6,22 @@
     <description>Recent content in Posts on kyle&#39;s first site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
+<<<<<<< HEAD
     <lastBuildDate>Fri, 21 Mar 2025 21:41:38 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+=======
+    <lastBuildDate>Sat, 22 Mar 2025 17:08:38 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>testing</title>
+      <link>http://localhost:1313/posts/20250322/</link>
+      <pubDate>Sat, 22 Mar 2025 17:08:38 -0700</pubDate>
+      <guid>http://localhost:1313/posts/20250322/</guid>
+      <description>&lt;h1 id=&#34;testing-from-android-app&#34;&gt;testing from android app&lt;/h1&gt;</description>
+    </item>
+    <item>
+>>>>>>> 4c809ec5cd145cde5354fc4535f6bdb9cab76d27
       <title>Test Deployment</title>
       <link>http://localhost:1313/posts/test-deployment/</link>
       <pubDate>Fri, 21 Mar 2025 21:41:38 -0700</pubDate>
