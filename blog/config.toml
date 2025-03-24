@@ -56,7 +56,8 @@ recent_posts_number = 8
 
  [params.ananke.social.follow]
  networks = [
-   "rss"
+   "rss",
+   "mastodon"
  ]
 
 [params.ananke.social.mastodon]
