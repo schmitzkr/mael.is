@@ -31,6 +31,7 @@ filename = "sitemap.xml"
 
 [params]
 mainSections = ["posts", "other"]
+disable_share = true
 text_color = ""
 author = "Grigory Vakulenchuk" # default author, override via `author` in a posts front matter
 favicon = ""
@@ -44,17 +45,15 @@ featured_image_class = "cover bg-top"
 cover_dimming_class = "bg-black-60"
 recent_posts_number = 8
 
-[params.ananke.social.share]
-networks = [
-  "email",
-  "bluesky"
-]
+# [params.ananke.social.share]
+# networks = [
+#   "email",
+# ]
 
-[params.ananke.social.follow]
-networks = [
-  "bluesky",
-  "wikipedia"
-]
+# [params.ananke.social.follow]
+# networks = [
+#   "rss"
+# ]
 
 # [params.ananke.social.facebook]
 # username = "patrick.kollitsch"
