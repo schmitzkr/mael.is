@@ -18,7 +18,7 @@ id = ''
 pagerSize = 8 # this is set low for demonstrating with dummy content. Set to a higher number
 
 [languages.en]
-contentDir = "./content"
+contentDir = "./content/en"
 languageCode = 'en-US'
 weight = 1
 title = "Kyle's"
