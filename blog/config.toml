@@ -49,8 +49,8 @@ recent_posts_number = 8
  #disable_share = true
  networks = [
    "email",
-    "facebook"
-    "linkedin"
+    "facebook",
+    "linkedin",
     "mastodon"
  ]
 
