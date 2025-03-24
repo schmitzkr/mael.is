@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/post/</loc>
+    <lastmod>2025-03-23T21:18:39-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/about/</loc>
     <lastmod>2025-03-23T20:57:26-07:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -12,53 +17,8 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/post/newone/</loc>
-    <lastmod>2025-03-23T17:39:12-07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/post/20250322/</loc>
-    <lastmod>2025-03-22T17:08:38-07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/post/2025-03-23-test3/</loc>
-    <lastmod>2025-03-23T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/post/2025-03-23-this-is-it/</loc>
-    <lastmod>2025-03-23T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/post/new-markor/</loc>
-    <lastmod>2025-03-23T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/post/test-markor2/</loc>
-    <lastmod>2025-03-23T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/post/test-copy/</loc>
-    <lastmod>2025-03-22T10:19:07-07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/post/test-deployment/</loc>
-    <lastmod>2025-03-21T21:41:38-07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/post/first-post/</loc>
-    <lastmod>2025-03-21T10:19:07-07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/post/my-first-post/</loc>
-    <lastmod>2025-03-14T12:12:01-07:00</lastmod>
+    <loc>http://localhost:1313/post/2025-03-24-daily-links/</loc>
+    <lastmod>2025-03-24T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -71,10 +31,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/post/test-markor/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
