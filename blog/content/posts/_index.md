@@ -1,5 +1,5 @@
 ---
-title: 'the latest stuff i've read'
+title: "the latest stuff i've read"
 description: "Keeping a log of things to look back on"
 date: 2025-03-23T20:56:26-07:00
 draft: false
