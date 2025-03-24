@@ -15,7 +15,7 @@ enableRobotsTXT = true
 id = ''
 
 [pagination]
-pagerSize = 3 # this is set low for demonstrating with dummy content. Set to a higher number
+pagerSize = 8 # this is set low for demonstrating with dummy content. Set to a higher number
 
 [languages.en]
 contentDir = "./content"
@@ -30,7 +30,7 @@ priority = 0.5
 filename = "sitemap.xml"
 
 [params]
-mainSections = ["posts"]
+mainSections = ["posts", "other"]
 text_color = ""
 author = "Grigory Vakulenchuk" # default author, override via `author` in a posts front matter
 favicon = ""
@@ -42,39 +42,40 @@ background_color_class = "bg-black"
 featured_image_class = "cover bg-top"
 # choose a color dimming class for the page or site header from any on this page: https://tachyons.io/docs/themes/skins/, preface it with "bg-" and add the value such as "-X0" where X is in [1,9]
 cover_dimming_class = "bg-black-60"
-recent_posts_number = 3
+recent_posts_number = 8
 
 [params.ananke.social.share]
 networks = [
   "email",
   "bluesky"
- 
 ]
 
 [params.ananke.social.follow]
 networks = [
-  "facebook",
   "bluesky",
-  "linkedin",
   "wikipedia"
 ]
 
-[params.ananke.social.facebook]
-username = "patrick.kollitsch"
+# [params.ananke.social.facebook]
+# username = "patrick.kollitsch"
 # profilelink = "https://www.facebook.com/patrick.kollitsch"
 
-[params.ananke.social.linkedin]
-username = "patrickkollitsch"
+# [params.ananke.social.facebook]
+# username = "patrick.kollitsch"
+# profilelink = "https://www.facebook.com/patrick.kollitsch"
 
-[params.ananke.social.bluesky]
-username = "kollitsch.dev"
+# [params.ananke.social.linkedin]
+# username = "patrickkollitsch"
 
-[params.ananke.social.wikipedia]
-username = "Hugo_(software)"
+# [params.ananke.social.bluesky]
+# username = "kollitsch.dev"
 
-[params.ananke.social.networks.wikipedia]
-slug = "wikipedia"
-label = "Wikipedia"
-color = "#0645ad"
-profile = "https://en.wikipedia.org/wiki/%s"
-icon = "wikipedia-w"
+# [params.ananke.social.wikipedia]
+# username = "Hugo_(software)"
+
+# [params.ananke.social.networks.wikipedia]
+# slug = "wikipedia"
+# label = "Wikipedia"
+# color = "#0645ad"
+# profile = "https://en.wikipedia.org/wiki/%s"
+# icon = "wikipedia-w"
