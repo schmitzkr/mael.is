@@ -30,7 +30,7 @@ priority = 0.5
 filename = "sitemap.xml"
 
 [params]
-mainSections = ["posts", "other"]
+mainSections = ["post", "other"]
 disable_share = true
 text_color = ""
 author = "Grigory Vakulenchuk" # default author, override via `author` in a posts front matter
