@@ -1,12 +1,15 @@
-title = "Notre-Dame de Paris"
-baseURL = "https://gohugo-theme-ananke.pages.dev"
-theme = ["github.com/theNewDynamic/gohugo-theme-ananke/v2"]
+title = "Kyle's"
+baseURL = "https://mael.is"
+theme = 'ananke'
 resourceDir = "../resources"
 
 defaultContentLanguage = "en"
 sectionPagesMenu = "main"
 enableRobotsTXT = true
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
 
 [services.googleAnalytics]
 id = ''
@@ -35,7 +38,7 @@ filename = "sitemap.xml"
 [params]
 mainSections = ["post"]
 text_color = ""
-author = "Victor Hugo" # default author, override via `author` in a posts front matter
+author = "Grigory Vakulenchuk" # default author, override via `author` in a posts front matter
 favicon = ""
 site_logo = ""
 description = "The last theme you'll ever need. Maybe."
@@ -50,9 +53,8 @@ recent_posts_number = 3
 [params.ananke.social.share]
 networks = [
   "email",
-  "facebook",
-  "bluesky",
-  "linkedin"
+  "bluesky"
+ 
 ]
 
 [params.ananke.social.follow]

@@ -1,34 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>http://localhost:1313/</loc>
-<<<<<<< HEAD
-    <lastmod>2025-03-21T21:41:38-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-03-21T21:41:38-07:00</lastmod>
-=======
-    <lastmod>2025-03-22T17:08:38-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-03-22T17:08:38-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/20250322/</loc>
-    <lastmod>2025-03-22T17:08:38-07:00</lastmod>
->>>>>>> 4c809ec5cd145cde5354fc4535f6bdb9cab76d27
-  </url><url>
-    <loc>http://localhost:1313/posts/test-deployment/</loc>
-    <lastmod>2025-03-21T21:41:38-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/first-post/</loc>
-    <lastmod>2025-03-21T10:19:07-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/my-first-post/</loc>
-    <lastmod>2025-03-14T12:12:01-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-  </url>
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <sitemap>
+    <loc>http://localhost:1313/en/sitemap.xml</loc>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>http://localhost:1313/fr/sitemap.xml</loc>
+    
+  </sitemap>
+  
+</sitemapindex>
