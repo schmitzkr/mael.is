@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>the latest stuff I&#39;ve read on Bear Cub</title>
+    <link>http://localhost:1313/en/</link>
+    <description>Recent content in the latest stuff I&#39;ve read on Bear Cub</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <managingEditor>github@mael.is (Grigory Vakulenchuk)</managingEditor>
+    <webMaster>github@mael.is (Grigory Vakulenchuk)</webMaster>
+    <copyright>John Doe (CC BY 4.0)</copyright>
+    <lastBuildDate>Sun, 23 Mar 2025 20:56:26 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>about</title>
+      <link>http://localhost:1313/en/about/</link>
+      <pubDate>Sun, 23 Mar 2025 20:57:26 -0700</pubDate><author>github@mael.is (Grigory Vakulenchuk)</author>
+      <guid>http://localhost:1313/en/about/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+  </channel>
+</rss>
