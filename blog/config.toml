@@ -1,81 +1,82 @@
-title = "Kyle's"
+# Basic config
 baseURL = "https://mael.is"
-theme = 'ananke'
-resourceDir = "./resources"
-
+theme = "hugo-bearcub"
+copyright = "Grigory Vakulenchuk (CC BY 4.0)"
 defaultContentLanguage = "en"
-sectionPagesMenu = "main"
-enableRobotsTXT = true
 
-[caches]
-  [caches.images]
-    dir = ':cacheDir/images'
+# Generate a nice robots.txt for SEO
+enableRobotsTXT = false
 
-[services.googleAnalytics]
-id = ''
+# Setup syntax highlighting without inline styles. For more information about
+# why you'd want to avoid inline styles, see
+# https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/style-src#unsafe_inline_styles
+[markup]
+  [markup.highlight]
+    lineNos = true
+    lineNumbersInTable = false
+    # This allows Bear Cub to use a variation of Dracula that is more accessible
+    # to people with poor eyesight. For more information about color contrast
+    # and accessibility, see https://web.dev/color-and-contrast-accessibility/
+    noClasses = false
 
-[pagination]
-pagerSize = 8 # this is set low for demonstrating with dummy content. Set to a higher number
+# Multilingual mode config. More for information about how to setup translation,
+# see https://gohugo.io/content-management/multilingual/
+[languages]
+  [languages.en]
+    title = "Home"
+    languageName = "en-US 🇺🇸"
+    LanguageCode = "en-US"
+    contentDir = "./content/en"
+    [languages.en.params]
+      madeWith = "Made with [Bear Cub](https://github.com/clente/hugo-bearcub)"
 
-[languages.en]
-contentDir = "./content/en"
-languageCode = 'en-US'
-weight = 1
-title = "Things I've read lately"
-# languageDirection = 'rtl' for Right-To-Left languages
-
-[sitemap]
-changefreq = "monthly"
-priority = 0.5
-filename = "sitemap.xml"
 
 [params]
-mainSections = ["post", "other"]
+  # The description of your website
+  description = "A place I can log things I'm reading and thinking"
 
-text_color = ""
-author = "Grigory Vakulenchuk" # default author, override via `author` in a posts front matter
-favicon = ""
-site_logo = ""
-description = "Things I've read lately."
-# choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
-background_color_class = "bg-black"
-# choose fitting and alignment styles for the featured image using Tachyons classes such as "cover|contain" for fitting and "bg-top|bg-center|bg-bottom" for alignment, or add any other class space-separated to customize further
-featured_image_class = "cover bg-top"
-# choose a color dimming class for the page or site header from any on this page: https://tachyons.io/docs/themes/skins/, preface it with "bg-" and add the value such as "-X0" where X is in [1,9]
-cover_dimming_class = "bg-black-60"
-recent_posts_number = 8
+  # The path to your favicon
+  favicon = "images/favicon.png"
 
- [params.ananke.social.share]
- #disable_share = true
- networks = [
-   "email",
-    "facebook",
-    "linkedin",
-    "mastodon"
- ]
+  # These images will show up when services want to generate a preview of a link
+  # to your site. Ignored if `generateSocialCard = true`. For more information
+  # about previews, see https://gohugo.io/templates/internal#twitter-cards and
+  # https://gohugo.io/templates/internal#open-graph
+  images = ["images/share.webp"]
 
- [params.ananke.social.follow]
- networks = [
-   "rss",
-   "mastodon"
- ]
+  # This title is used as the site_name on the Hugo's internal opengraph
+  # structured data template
+  title = "The latest things I'm reading"
 
-[params.ananke.social.mastodon]
-# username = "@vakulenchuk"
-profilelink = "https://union.place/@vakulenchuk"
+  # Dates are displayed following the format below. For more information about
+  # formatting, see https://gohugo.io/functions/format/
+  dateFormat = "2006-01-02"
 
-# [params.ananke.social.linkedin]
-# username = "patrickkollitsch"
+  # If your blog is multilingual but you haven't translated a page, this theme
+  # will create a disabled link. By setting `hideUntranslated` to true, you can
+  # have the theme simply not show any link
+  hideUntranslated = true
 
-# [params.ananke.social.bluesky]
-# username = "kollitsch.dev"
+  # (EXPERIMENTAL) This theme has two options for its CSS styles: "original" and
+  # "herman". The former is what you see on Bear Cub's demo (an optimized
+  # version of Hugo Bear Blog), while the latter has a more modern look based on
+  # Herman Martinus's version of the Blogster Minimal theme for Astro.
+  themeStyle = "herman"
 
-# [params.ananke.social.wikipedia]
-# username = "Hugo_(software)"
+  # (EXPERIMENTAL) This theme is capable of dynamically generating social cards
+  # for posts that don't have `images` defined in their front matter; By setting
+  # `generateSocialCard` to false, you can prevent this behavior. For more
+  # information see layouts/partials/social_card.html
+  generateSocialCard = true
 
-# [params.ananke.social.networks.wikipedia]
-# slug = "wikipedia"
-# label = "Wikipedia"
-# color = "#0645ad"
-# profile = "https://en.wikipedia.org/wiki/%s"
-# icon = "wikipedia-w"
+  # Social media. Delete any item you aren't using to make sure it won't show up
+  # in your website's metadata.
+  [params.social]
+    mastodon = "vakulenchuk" # Twitter handle (without '@')
+
+  # Author metadata. This is mostly used for the RSS feed of your site, but the
+  # email is also added to the footer of each post. You can hide the "reply to"
+  # link by using a `hideReply` param in front matter.
+  [params.author]
+    name = "Grigory Vakulenchuk" # Your name as shown in the RSS feed metadata
+    email = "github@mael.is" # Added to the footer so readers can reply to posts
