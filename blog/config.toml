@@ -3,6 +3,7 @@ baseURL = "https://mael.is"
 theme = "hugo-bearcub"
 copyright = "Grigory Vakulenchuk (CC BY 4.0)"
 defaultContentLanguage = "en"
+showLatestPost = true
 
 # Generate a nice robots.txt for SEO
 enableRobotsTXT = false
