@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Home</title>
-    <link>http://localhost:1313/</link>
+    <link>http://localhost:1313/blog/</link>
     <description>Recent content on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
@@ -10,20 +10,20 @@
     <webMaster>github@mael.is (Grigory Vakulenchuk)</webMaster>
     <copyright>Grigory Vakulenchuk (CC BY 4.0)</copyright>
     <lastBuildDate>Sun, 23 Mar 2025 20:56:26 -0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>about</title>
-      <link>http://localhost:1313/about/</link>
+      <link>http://localhost:1313/blog/about/</link>
       <pubDate>Sun, 23 Mar 2025 20:57:26 -0700</pubDate><author>github@mael.is (Grigory Vakulenchuk)</author>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>http://localhost:1313/blog/about/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Daily links</title>
-      <link>http://localhost:1313/post/2025-03-24-daily-links/</link>
+      <link>http://localhost:1313/blog/post/2025-03-24-daily-links/</link>
       <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate><author>github@mael.is (Grigory Vakulenchuk)</author>
-      <guid>http://localhost:1313/post/2025-03-24-daily-links/</guid>
+      <guid>http://localhost:1313/blog/post/2025-03-24-daily-links/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ismympalandlord.ca/&#34;&gt;https://ismympalandlord.ca/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.theguardian.com/us-news/2025/mar/24/journalist-trump-yemen-war-chat&#34;&gt;https://www.theguardian.com/us-news/2025/mar/24/journalist-trump-yemen-war-chat&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://512kb.club/&#34;&gt;https://512kb.club/&lt;/a&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><a href="https://ismympalandlord.ca/">https://ismympalandlord.ca/</a></p>
 <p><a href="https://www.theguardian.com/us-news/2025/mar/24/journalist-trump-yemen-war-chat">https://www.theguardian.com/us-news/2025/mar/24/journalist-trump-yemen-war-chat</a></p>
