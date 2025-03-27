@@ -2,20 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/blog/post/</loc>
+    <loc>https://mael.is/blog/post/</loc>
     <lastmod>2025-03-23T21:18:39-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/about/</loc>
+    <loc>https://mael.is/blog/about/</loc>
     <lastmod>2025-03-23T20:57:26-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/</loc>
+    <loc>https://mael.is/blog/</loc>
     <lastmod>2025-03-23T20:56:26-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/post/2025-03-24-daily-links/</loc>
+    <loc>https://mael.is/blog/post/2025-03-24-daily-links/</loc>
     <lastmod>2025-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/categories/</loc>
+    <loc>https://mael.is/blog/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/tags/</loc>
+    <loc>https://mael.is/blog/tags/</loc>
   </url>
 </urlset>
