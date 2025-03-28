@@ -1,5 +1,5 @@
 # Basic config
-baseURL = "https://mael.is"
+baseURL = "https://mael.is/blog"
 theme = "hugo-bearcub"
 copyright = "Grigory Vakulenchuk (CC BY 4.0)"
 defaultContentLanguage = "en"
