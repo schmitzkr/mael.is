@@ -1,7 +1,7 @@
 ---
 tags: []
-created: '2025-03-27'
-date: '2025-03-27'
+created: 2025-03-27T00:00:00Z
+date: 2025-03-27T00:00:00Z
 title: '2025-03-27-daily-links'
 private: true
 ---
