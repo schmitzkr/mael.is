@@ -1,7 +1,7 @@
 ---
 tags: []
 created: 2025-03-24T00:00:00Z
-Date: 2025-03-24T00:00:00Z
+date: 2025-03-24T00:00:00Z
 title: 'Daily links'
 private: true
 ---
